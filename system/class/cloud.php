@@ -2,9 +2,9 @@
 if (!defined('IN_KKFRAME')) exit();
 
 class cloud {
-	const API_ROOT = 'http://apisign.aliapp.com/';
-	const API_ROOT_HTTPS = 'http://apisign.aliapp.com/';
-    const API_ROOT_SAE = 'http://apisign.aliapp.com/v2/';
+	const API_ROOT = 'http://api.jisxu.top/';
+	const API_ROOT_HTTPS = 'http://api.jisxu.top/';
+    const API_ROOT_SAE = 'http://api.jisxu.top/v2/';
 	public static function init(){
 		list($id, $key) = self::_get_id_and_key();
 		if (!$id || !$key) define('CLOUD_NOT_INITED', true);
