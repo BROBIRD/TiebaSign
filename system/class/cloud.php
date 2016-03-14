@@ -2,9 +2,9 @@
 if (!defined('IN_KKFRAME')) exit();
 
 class cloud {
-	const API_ROOT = 'http://api.jisxu.top/';
-	const API_ROOT_HTTPS = 'http://api.jisxu.top/';
-    const API_ROOT_SAE = 'http://api.jisxu.top/v2/';
+	const API_ROOT = 'http://api.brobird.cf/';
+	const API_ROOT_HTTPS = 'http://api.brobird.cf/';
+    const API_ROOT_SAE = 'http://api.brobird.cf/v2/';
 	public static function init(){
 		list($id, $key) = self::_get_id_and_key();
 		if (!$id || !$key) define('CLOUD_NOT_INITED', true);
